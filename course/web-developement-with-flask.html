@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Etrain Education</title>
+        <meta name="description" content="">
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+        
+        <!-- Syntax Highlighter -->
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+        <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+		
+		<!-- Font Awesome CSS-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Normalize/Reset CSS-->
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<!-- Main CSS-->
+        <link rel="stylesheet" href="css/main.css">
+		
+    </head>
+	
+    <body id="welcome">
+    <!--
+        <aside class="left-sidebar">
+            <div class="logo">
+                <a href="#welcome">
+                    <h1>Etrain Education</h1>
+                </a>
+            </div>
+            <nav class="left-nav">
+                <ul id="nav">
+                    <li class="current"><a href="#welcome">Welcome</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#html">Introduction to Web Development</a></li>
+                    <li><a href="#htmlandcss">Introduction to HTML & CSS</a></li>
+                    <li><a href="#javascript">JavaScript Libraries</a></li>
+                    <li><a href="#contact-form">Contact Form</a></li>
+                    <li><a href="#subscription-form">Subscription Form</a></li>
+                    <li><a href="#video">Video Tutorial</a></li>
+                    <li><a href="#credit">Source and Credit</a></li>
+                </ul>
+            </nav>
+        </aside>
+		-->
+		<div id="main-wrapper">
+		    <div class="main-content">
+		        <section id="welcome">
+		            <div class="content-header">
+		                <h1>Web Development with Machine Learning</h1>
+		            </div>
+		            <div class="welcome">
+                        
+                        <h2 class="twenty">Welcome To Web Development with Machine Learning</h2>
+
+                        <p>Hey guys this is a Complete series of Web development & Integration with Machine Learning Models using flask. In this tutorial I will be giving you the Introduction of HTML and also I will be giving you a practical demo of basic HTML Coding.</p>
+		            </div>
+		            
+		            <div class="features">
+		                <h2 class="twenty">Course Curriculum</h2>
+		                
+		                <ul>
+		                    <li>HTML Introduction</li>
+                            <li>Introduction to HTML & CSS</li>
+                            <li>Basic HTML Tags</li>
+                            <li>HTML Formatting</li>
+                            <li>HTML Class & Styling</li>
+                            <li>HTML ID</li>
+                            <li>HTML List</li>
+                            <li>HTML HTML Iframes</li>
+		                </ul>
+		            </div>
+
+		        </section>
+		        
+		        <section id="installation">
+                    <div class="content-header">
+		                <h1>Software Requirements & Installations</h1>
+                    </div>
+                    <h2 class="title">Installing Required Software</h2>
+                    
+                    <div class="section-content">
+                        <ol>
+                            <li>Click here to download Sublime 3 Text Editor. <a href="https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe">Download</a></li>
+                        </ol>
+                    </div>
+		            
+		        </section>
+
+		        <section id="html">
+		        	<div class="content-header">
+		            <h1>Introduction to Web Development</h1>
+		        </div>
+		            <p class="fifteen">These are the css files that are loaded into templates in <strong>Head Section</strong>.</p>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wZoOsOSFbRc?list=PLKVOq8_e5zlF6inui-hSzM9GtH-kHuQvq"></iframe>
+  </div>
+		        </section>
+		        
+		        <section id="htmlandcss">
+		            <h2 class="title">Introduction to HTML & CSS</h2>
+		            
+		            <p class="fifteen">These are the list of Javascript files that are loaded into templates in end of the <strong>Body Section</strong>.
+		            
+		            
+		        </section>
+		        
+		        <section id="contact-form">
+		            <h2 class="title"> Contact Form </h2>
+		            <p>This is a PHP Script for sending messages to your email, you should replace <strong>demo@site.com</strong> to your email to start receive messages.</p>
+		            <pre class="brush:php">
+	                    $to = 'demo@site.com'; // replace this mail with yours
+					    $firstname = $_POST["fname"];
+					    $email= $_POST["email"];
+					    $headers = 'MIME-Version: 1.0' . "\r\n";
+					    $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+					    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+					    $message ='<table style="width:100%">
+					        <tr>
+					            <td>'.$firstname.'  '.$laststname.'</td>
+					        </tr>
+					        <tr><td>Email: '.$email.'</td></tr>
+					    </table>';
+
+					    if (@mail($to, $email, $message, $headers))
+					    {
+					        echo 'The message has been sent.';
+					    }else{
+					        echo 'failed';
+					    }
+		            </pre>		            
+		        </section>
+		        <section id="subscription-form">
+		            <h2 class="title"> Subscription Form </h2>
+		            <p>Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".</p>
+		            <pre class="brush: javascript">
+				        <div id="mc_embed_signup">
+				        	//Replace this action with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
+				        	<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center"></form>
+				        </div>
+		            </pre>		            
+		        </section>
+		        <section id="video">
+		        	<h2 class="title"> Video Tutorial </h2>
+		        	<!-- 21:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-21by9">
+					  <iframe class="embed-responsive-item" width="100%" height="515" src="https://www.youtube.com/embed/i7_PRPLOxVE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>	            
+		        </section>
+		        <section id="credit">
+		            <h2 class="title">Source and Credit</h2>	            
+		            <div class="script-source">
+		                <ul>
+		                    <li><a target="_blank" href="http://www.pexels.com">Pexels</a></li>
+		                    <li><a target="_blank" href="https://daneden.github.io/animate.css/">animate</a></li>
+		                    <li><a target="_blank" href="http://getbootstrap.com">Bootstrap Framework</a></li>
+		                    <li><a target="_blank" href="https://github.com/iamMonzurul/jQuery-AJAX-MailChimp">Ajax Mailchimp</a></li>
+		                    <li><a target="_blank" href="https://linearicons.com/">Linearicons</a></li>
+		                    <li><a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">Magnefic Pop Up</a></li>
+		                    <li><a target="_blank" href="https://themify.me/themify-icons">themify icons</a></li>
+		                    <li><a target="_blank" href="https://hernansartorio.com/jquery-nice-select/">nice select</a></li>
+		                </ul>
+		            </div>
+		        </section>
+		    </div>
+		</div>
+		
+		
+		<!-- Essential JavaScript Libraries
+		==============================================-->
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script> 
+        <script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script> 
+        <script type="text/javascript">
+            SyntaxHighlighter.all()
+        </script>
+        <script type="text/javascript" src="js/custom.js"></script>
+		
+    </body>
+</html>
